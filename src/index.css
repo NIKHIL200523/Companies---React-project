@@ -1,0 +1,119 @@
+*{
+  margin : 0 ;
+  padding : 0px;
+  box-sizing : border-box ; 
+  font-family : 'Poppins' , sans-serif ;
+  
+}
+html,
+body{
+   height : 100% ;
+   width : 100% ;
+}
+
+.parent{
+    min-height : 100vh ;
+  width : 100 ;
+  background-color : #111;
+  padding : 30px ;
+  display : flex ;
+  gap : 30px ;
+  flex-wrap : wrap ;
+ 
+}
+
+.Card{
+  height : 330px ;
+  width : 280px ;
+  background-color : #fff ;
+   padding :20px ;
+  border-radius : 30px ;
+  display : flex ;
+  flex-direction : column ;
+  justify-content : space-between ;
+}
+
+.Card .Top{
+    display : flex ;
+    align-items : center ;
+    justify-content: Space-between ;
+    margin-bottom : 30px ;
+}
+.Top img{
+  height : 40px ;
+  width : 40px ; 
+  border-radius : 50% ;
+  border : 1px solid  black ;
+  padding : 2px ;
+}
+
+.Top button{
+  display : flex ;
+  align-items : center ;
+  border : 1px solid #dadada ;
+  padding : 3px 8px ;
+  font-size : 10px ;
+  border-radius : 5px ;
+  gap :3px ;
+  background-color : transparent ;
+  color : #b1b1b1 ;
+}
+
+
+.Center h3{
+  font-size : 18px ;
+  font-weight : 500;
+}
+
+.Center h3 span{
+  font-size : 9px ;
+  font-weight : 400 ;
+  color : #8b8b8b ;
+}
+.Center h2{
+  font-size : 20px ;
+  
+}
+
+.Center .tag {
+  display : flex ;
+  gap : 5px ;
+  margin-top: 10px;
+}
+
+.Center .tag h4 {
+  font-size: 12px;
+  background-color: #dadada;
+  color: #111;
+  font-weight: 500;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+
+.Bottom{
+  display : flex ;
+  align-items : center ;
+  justify-content: Space-between ;
+  border-top : 1px solid #dadada ;
+  padding-top : 10px ;
+  margin-top : 20px ;
+}
+
+.Bottom button{
+  background-color : black ;
+  color : #fff ;
+  padding : 5px 10px ;
+  border-radius : 5px ;
+  border : none ;
+  border-radius : 5px ;
+  column-width : 600 ;
+
+}
+
+.Bottom h3 {
+  font-size : 17px ;
+}
+.Bottom p{
+  font-size : 12px ;
+  color : #8b8b8b ;
+}
